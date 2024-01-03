@@ -1,0 +1,445 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* FIN RESET */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.callToAction {
+    padding: 11px 21px;
+    background-color: #F59606;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 80vh;
+    background: url(../img/banniere.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 350px;
+    /*height: 300px;*/
+    text-align: center;
+    padding-top: 20px;
+    /*marge intérieure*/
+    margin-top: 20px;
+    /*marge extérieure*/
+}
+
+.logo img {
+    width: 50%;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.bouton {
+    /*background: yellow;*/
+    text-align: right;
+    padding: 30px;
+}
+
+.bouton .callToAction {
+    margin-left: 16px;
+    transition: 0.5s;
+}
+
+.bouton .callToAction:hover {
+    filter: brightness(50%);
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #FF9C96;
+}
+
+/*Prémier section */
+/*main{
+    width: 1200px;
+    margin: 100px auto;
+}*/
+main {
+    margin-top: 100px;
+}
+
+.description {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.resto {
+    /*height: 400px;
+    background: violet;
+    width: 50%;*/
+    width: 35%;
+    text-align: center;
+}
+
+.titre-resto {
+    font-size: 35px;
+    color: #F59606;
+    font-style: normal;
+}
+
+.story {
+    /*height: 400px;*/
+    /*width: 50%;*/
+    width: 65%;
+    height: 200px;
+}
+
+.image1 {
+    /*width: 50%;
+    margin-top: 40px;*/
+
+    width: 85%;
+    margin-top: 20px;
+}
+
+.titre-story {
+    font-size: 35px;
+    color: #F59606;
+    font-style: normal;
+}
+
+.titre-equipe {
+    margin-top: 23px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.paragraph1 {
+    margin-top: 50px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.paragraph2 {
+    margin-top: 66px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+
+
+/********SECTION BURGER FLEX********/
+.burger {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.burger-block {
+    width: 35%;
+    text-align: center;
+    /*background: gold;*/
+}
+
+.menu-burger {
+    width: 89%;
+    height: 200px;
+    background: black;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+.multiple-items {
+    padding-top: 60px;
+    margin-left: 45px;
+    display: flex;
+}
+
+.title-burger {
+    margin-top: 60px;
+    font-size: 35px;
+    color: #F59606;
+    font-style: normal;
+}
+
+.paragraph3 {
+    margin-top: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.image2 {
+    width: 100px;
+    height: 100px;
+}
+
+.paragraph4 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 38px;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+.image3 {
+    width: 100px;
+    height: 100px;
+    padding: 0px 30px;
+}
+
+.paragraph5 {
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 140px;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+.image4 {
+    width: 100px;
+    height: 100px;
+}
+
+.paragraph6 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 392px;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+/**********Section Actu************/
+.news-burger {
+    width: 1200px;
+    margin: 70px auto;
+}
+
+.title-news {
+    text-align: center;
+    font-size: 35px;
+    color: #2BF567;
+    font-style: italic;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.title-article1 {
+    text-align: center;
+}
+
+.image5 {
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.under-button {
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #F59606;
+    background: #F59606;
+    color: #FFF;
+    padding: 6px 20px;
+}
+
+.title-article2 {
+    text-align: center;
+}
+
+.image6 {
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.title-article3 {
+    text-align: center;
+}
+
+.image7 {
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+/*---------Section newsletter-----------*/
+.section-newsletter {
+    background: #EEEEEE;
+    height: 240px;
+
+}
+
+.under-newsletter {
+    background: #2A7FFF;
+    height: 200px;
+    width: 1200px;
+    margin: 0px auto;
+}
