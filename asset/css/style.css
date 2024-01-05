@@ -149,7 +149,7 @@ table {
 }
 
 header {
-    height: 80vh;
+    height: 700px;
     background: url(../img/banniere.jpg) no-repeat;
     background-size: cover;
     background-position: top;
@@ -219,7 +219,7 @@ nav a:hover {
     margin: 100px auto;
 }*/
 main {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .description {
@@ -227,9 +227,9 @@ main {
     margin: 0px auto;
 }
 
-.flex {
+/* .flex {
     display: flex;
-}
+} */
 
 .resto {
     /*height: 400px;
@@ -269,39 +269,94 @@ main {
 .titre-equipe {
     margin-top: 23px;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .paragraph1 {
     margin-top: 50px;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .paragraph2 {
-    margin-top: 66px;
+    margin-top: 105px;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 
 /********SECTION BURGER FLEX********/
-.burger {
+.burger-section {
     width: 1200px;
     margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .burger-block {
     width: 35%;
     text-align: center;
     /*background: gold;*/
+    margin-top: 45px;
+    position: absolute;
+    margin-left: -45px;
 }
 
 .menu-burger {
-    width: 89%;
-    height: 200px;
-    background: black;
+    width: 60%;
+    margin-left: 414px;
+    margin-top: 100px;
+    /* height: 200px; */
+    /* background: black; */
+}
+
+.paragraph-1 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-2 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-3 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-4 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-5 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-6 {
+    position: relative;
+    margin-top: 205px;
+    margin-left: -134px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .slick-next {
@@ -324,7 +379,7 @@ main {
 .paragraph3 {
     margin-top: 20px;
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .image2 {
@@ -376,8 +431,8 @@ main {
 .title-news {
     text-align: center;
     font-size: 35px;
-    color: #2BF567;
-    font-style: italic;
+    color: #F59606;
+    font-style: normal;
 }
 
 .articles {
