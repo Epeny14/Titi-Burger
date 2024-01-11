@@ -268,19 +268,19 @@ main {
 
 .titre-equipe {
     margin-top: 23px;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 .paragraph1 {
     margin-top: 50px;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 .paragraph2 {
     margin-top: 105px;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -378,7 +378,7 @@ main {
 
 .paragraph3 {
     margin-top: 20px;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -443,6 +443,9 @@ main {
 
 .title-article1 {
     text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image5 {
@@ -467,6 +470,9 @@ main {
 
 .title-article2 {
     text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image6 {
@@ -477,6 +483,9 @@ main {
 
 .title-article3 {
     text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image7 {
@@ -488,13 +497,163 @@ main {
 /*---------Section newsletter-----------*/
 .section-newsletter {
     background: #EEEEEE;
-    height: 240px;
+    height: 280px;
 
 }
 
+.bloc-newsletter {
+    display: flex;
+    padding: 45px;
+}
+
 .under-newsletter {
-    background: #2A7FFF;
-    height: 200px;
-    width: 1200px;
-    margin: 0px auto;
+    background: #576D8B;
+    position: absolute;
+    height: 176px;
+    width: 1045px;
+    margin: 60px 223px;
+}
+
+.section-newsletter2 {
+    margin-left: 650px;
+    position: absolute;
+}
+
+.text-newsletter1 {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.text-newsletter2 {
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 40px;
+}
+
+.paragraph-newsletter-1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.paragraph-newsletter-2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+.paragraph-newsletter-3 {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.under-title-1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: -10px;
+}
+
+.form {
+    margin-top: 10px;
+    width: 230px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px;
+    position: absolute;
+}
+
+.btn-newsletter {
+    border: 1px solid #F59606;
+    background: #F59606;
+    width: 55px;
+    border-radius: 5px;
+    height: 55px;
+    position: absolute;
+    margin-left: 244px;
+    margin-top: 9px;
+}
+
+.btn-1 {
+    height: 50px;
+    width: 50px;
+}
+
+.arrow-news {
+    width: 15px;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -14px;
+}
+
+/*------- Footer--------*/
+.section-footer {
+    background-color: #102940;
+    height: 300px;
+}
+
+.under-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.under-flex-1 {
+    margin-top: 30px;
+}
+
+.list-flex-1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.under-flex-2 {
+    margin-top: 30px;
+}
+
+.list-flex-2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.under-flex-3 {
+    margin-top: 30px;
+}
+
+.list-flex-3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.under-flex-4 {
+    margin-top: 30px;
+}
+
+.list-flex-4 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.under-flex-5 {
+    margin-top: 30px;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.tiktok {
+    width: 50px;
+    height: 50px;
 }
