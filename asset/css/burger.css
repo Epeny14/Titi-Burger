@@ -211,7 +211,7 @@ nav a:hover {
     color: #FF9C96;
 }
 
-.section-carousel {
+.burger-carousel {
     background: url(../img/banniere.jpg) no-repeat;
     background-size: cover;
     background-position: top;
@@ -266,143 +266,10 @@ nav a:hover {
     opacity: 1;
 }
 
-/*   
-  .slide img {
+
+.slide img {
     display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
-  } */
-
-.under-paragraph-1 {
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 246px;
-    font-size: 40px;
-}
-
-.under-paragraph-2 {
-    color: #D9ADD6;
-    text-align: center;
-    margin-top: 250px;
-    font-family: 'Homeday', sans-serif;
-    font-size: 50px;
-}
-
-.under-paragraph-10 {
-    color: #494C4F;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-
-}
-
-.under-paragraph-11 {
-    color: #5F6368;
-    text-align: center;
-    font-size: 15px;
-}
-
-
-.text-3 {
-    border: 1px solid #576D8B;
-    border-radius: 5px;
-    background: #576D8B;
-    height: 145px;
-    width: 480px;
-    margin-left: 110px;
-    margin-top: 200px;
-}
-
-.under-text-3 {
-    border: 1px solid #D9ADD6;
-    border-radius: 10px;
-    background: #D9ADD6;
-    margin-top: 35px;
-    margin-left: 80px;
-    width: 320px;
-    height: 70px;
-}
-
-.under-paragraph-3 {
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.link-menu {
-    color: #FFFFFF;
-    text-decoration: none;
-    text-decoration-line: blink;
-}
-
-
-/*------- Footer--------*/
-.section-footer {
-    background-color: #102940;
-    height: 300px;
-}
-
-.under-footer {
-    display: flex;
-    justify-content: space-around;
-}
-
-.under-flex-1 {
-    margin-top: 30px;
-}
-
-.list-flex-1 {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-style: normal;
-}
-
-.under-flex-2 {
-    margin-top: 30px;
-}
-
-.list-flex-2 {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-style: normal;
-}
-
-.under-flex-3 {
-    margin-top: 30px;
-}
-
-.list-flex-3 {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-style: normal;
-}
-
-.under-flex-4 {
-    margin-top: 30px;
-}
-
-.list-flex-4 {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-style: normal;
-}
-
-.under-flex-5 {
-    margin-top: 30px;
-}
-
-.insta {
-    width: 50px;
-    height: 50px;
-}
-
-.facebook {
-    width: 50px;
-    height: 50px;
-}
-
-.tiktok {
-    width: 50px;
-    height: 50px;
 }
